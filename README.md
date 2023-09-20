@@ -10,4 +10,5 @@ country_list =  ["Costa Rica", "El Salvador","Guatemala","Honduras","Nicaragua",
 df = secmca_download_csv(serie, start_year, end_year, country_list)
 # ...
 
-El valor de serie puede ser TCN o IPC, el intervalo de tiempo definido por ```python start_year, end_year # ... también es editable, asi como la lista de paises. En el ejemplo anterior, el resultado es una descarga del documento ```python TCN_1.csv # ... y el correspondiente pandas.DataFrame.
+El valor de serie puede ser TCN o IPC, el intervalo de tiempo definido por `start_year, end_year` también es editable, asi como la lista de paises. En el ejemplo anterior, el resultado es una descarga del documento `TCN_1.csv` y el correspondiente pandas.DataFrame.
+
